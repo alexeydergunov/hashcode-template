@@ -53,6 +53,8 @@ def main():
     shutil.copy("solver.h", last_sources_dir)
     shutil.copy("checker.h", last_sources_dir)
     shutil.copy("main.cpp", last_sources_dir)
+    shutil.copy("pack.py", last_sources_dir)
+    shutil.copy("run.sh", last_sources_dir)
 
     print("Zipping sources...")
     src_zip_filename = "submit_sources"
